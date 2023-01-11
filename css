@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* max-height: max-content; */
+}
+
+header {
+    position: relative;
+    background-color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+
+.reverseBtn {
+    background-color: white;
+    color: gray;
+    transition: ease-out 0.5s;
+}
+
+.reverseBtn:hover {
+
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+    background-color: rgb(172, 166, 166);
+}
+
+.minHeader {
+    padding: 5px 0px 5px 10px;
+    display: none;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.mainbaslik {
+    text-align: center;
+    color: gray;
+}
+
+.yazi {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerbaslik {
+    font-style: oblique;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.yzi {
+    color: black;
+    font-size: medium;
+}
+
+button {
+    padding: 14px 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kartlar {
+    padding: 20px 50px 40px 50px;
+    margin: auto;
+    border-radius: 18px;
+    max-width: 450px;
+    float: left;
+}
+
+.kartlar:hover {
+    background-color: rgb(170, 164, 164);
+    cursor: pointer;
+    transition: 1.5s;
+
+}
+
+.kapsayici {
+    width: 1100px;
+    margin: auto;
+}
+
+.kapsayicilar {
+    width: 1100px;
+    margin: auto;
+}
+
+.yazilar {
+    text-align: center;
+    color: blue;
+}
+
+.yazii {
+    text-align: center;
+    color: black;
+}
+footer{
+    background-color: gray;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
